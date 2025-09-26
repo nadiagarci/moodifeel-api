@@ -1,24 +1,24 @@
-# README
+# Moodifeel API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails API for tracking user moods. Mini fullstack app showcasing backend skills for a technical interview.
 
-Things you may want to cover:
+## Features
+- Record user moods with optional notes and timestamps
+- RESTful API endpoints for CRUD operations
+- Ready to connect with a React frontend
 
-* Ruby version
+## Tech Stack
+- Ruby on Rails (API-only)
+- SQLite (development)
+- RSpec for testing
 
-* System dependencies
+## Usage
+1. Clone this repository
+2. Run `bundle install`
+3. Run `rails db:migrate`
+4. Start the server with `rails server`
+5. Access the API at `http://localhost:3000/mood_entries`
 
-* Configuration
+## Contributing
+This is a personal project for a technical interview. Contributions are not expected, but suggestions are welcome.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
